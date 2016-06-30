@@ -1,7 +1,7 @@
 {
   "name": "open-in-deckset",
   "main": "./lib/open-in-deckset",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Open a Markdown file in Deckset.",
   "repository": "https://github.com/javiertoledo/open-in-deckset",
   "license": "MIT",
