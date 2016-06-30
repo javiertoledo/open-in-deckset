@@ -1,0 +1,17 @@
+{
+  "name": "open-in-deckset",
+  "main": "./lib/open-in-deckset",
+  "version": "0.0.1",
+  "description": "Open a Markdown file in Deckset.",
+  "repository": "https://github.com/javiertoledo/open-in-deckset",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "activationCommands": {
+    "atom-workspace": "open-in-deckset:open"
+  },
+  "dependencies": {
+    "event-kit": ">= 0.7.2"
+  }
+}

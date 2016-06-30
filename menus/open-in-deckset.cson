@@ -1,0 +1,23 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+      {
+          label: 'Open in Deckset',
+          command: 'open-in-deckset:open'
+      }
+  ]
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Open in Deckset'
+      'submenu': [
+        {
+          'label': 'Open in Deckset',
+          'command': 'open-in-deckset:open'
+        }
+      ]
+    ]
+  }
+]
